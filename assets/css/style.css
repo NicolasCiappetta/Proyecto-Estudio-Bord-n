@@ -1,0 +1,95 @@
+
+.navbar{
+    background-color: #333 !important;
+    color: white;
+}
+
+.carousel-item h5{
+    font-size: 45px;
+}
+.carousel-item p{
+    font-size: 20px;
+}
+
+
+.card-title{
+    font-size: 20px;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.pie{
+    margin-top: 10px;
+    font-size: 1rem;
+    background-color: #333333;
+    color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+.pie ul{
+list-style: none;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.footerContacto{
+    padding: 0.5rem 0;
+}
+
+
+.botonContacto{
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #cfef00;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 180px;
+}
+   
+.botonContacto:hover {
+    background: #a6c900;
+}
+   
+button > svg {
+    width: 45px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+}
+   
+button:hover svg {
+    transform: translateX(5px);
+}
+   
+button:active {
+    transform: scale(0.95);
+}
+
+.tarjetasContacto{
+    display: flex;
+    justify-content: center;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjetasContacto p{
+    display: flex;
+    justify-content: center;
+}
