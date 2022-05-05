@@ -1,0 +1,23 @@
+.pie{
+    margin-top: 10px;
+    font-size: 1rem;
+    background-color: #333333;
+    color: $colorFuente;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+}
+
+.footerContacto{
+    padding: 0.5rem 0;
+}

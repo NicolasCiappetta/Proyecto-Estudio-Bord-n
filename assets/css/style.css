@@ -1,95 +1,142 @@
-
-.navbar{
-    background-color: #333 !important;
-    color: white;
+.pie {
+  margin-top: 10px;
+  font-size: 1rem;
+  background-color: #333333;
+  color: #ffffff;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 15px;
 }
 
-.carousel-item h5{
-    font-size: 45px;
-}
-.carousel-item p{
-    font-size: 20px;
-}
-
-
-.card-title{
-    font-size: 20px;
-}
-
-.card-title{
-    font-size: 20px;
+.pie ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.pie{
-    margin-top: 10px;
-    font-size: 1rem;
-    background-color: #333333;
-    color: white;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 15px;
-}
-.pie ul{
-list-style: none;
-display: flex;
-justify-content: space-around;
-align-items: center;
+.footerContacto {
+  padding: 0.5rem 0;
 }
 
-.footerContacto{
-    padding: 0.5rem 0;
+.botonContacto {
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica,"sans-serif";
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #cfef00;
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 180px;
 }
 
+.botonContacto :hover {
+  background: #a6c900;
+}
 
-.botonContacto{
-    cursor: pointer;
-    font-weight: 700;
-    font-family: Helvetica,"sans-serif";
-    transition: all .2s;
-    padding: 10px 20px;
-    border-radius: 100px;
-    background: #cfef00;
-    border: 1px solid transparent;
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    width: 180px;
+.navbar {
+  background-color: #333 !important;
+  color: #ffffff;
 }
-   
-.botonContacto:hover {
-    background: #a6c900;
+
+.tarjetasContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-   
+
+.tarjetasContacto p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.botonContacto {
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica,"sans-serif";
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #cfef00;
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 180px;
+}
+
+.botonContacto :hover {
+  background: #a6c900;
+}
+
 button > svg {
-    width: 45px;
-    margin-left: 10px;
-    transition: transform .3s ease-in-out;
-}
-   
-button:hover svg {
-    transform: translateX(5px);
-}
-   
-button:active {
-    transform: scale(0.95);
+  width: 45px;
+  margin-left: 10px;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
 }
 
-.tarjetasContacto{
-    display: flex;
-    justify-content: center;
+button > svg :hover svg {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
 }
 
-.card-text{
-    display: flex;
-    justify-content: center;
+button > svg :active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 
-.tarjetasContacto p{
-    display: flex;
-    justify-content: center;
+.card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+/*# sourceMappingURL=style.css.map */
