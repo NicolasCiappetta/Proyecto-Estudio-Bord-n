@@ -1,3 +1,34 @@
+.botonContacto{
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: $colorBoton;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 180px;
+    &:hover {
+        background: $colorBoton-Hover;
+    }
+}
 
+button > svg {
+    width: 45px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+    &:hover svg {
+        transform: translateX(5px);
+    }
+    &:active {
+        transform: scale(0.95);
+    }
+
+}
 
 

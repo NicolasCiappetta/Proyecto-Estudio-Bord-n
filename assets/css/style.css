@@ -1,3 +1,92 @@
+.navbar {
+  background-color: #333 !important;
+  color: #ffffff;
+}
+
+.carousel-inner h5 {
+  font-size: 25px;
+}
+
+.carousel-inner p {
+  font-size: 15px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.botonContacto {
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica,"sans-serif";
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #cfef00;
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 180px;
+}
+
+.botonContacto:hover {
+  background: #a6c900;
+}
+
+button > svg {
+  width: 45px;
+  margin-left: 10px;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+button > svg:hover svg {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+button > svg:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.tarjetasContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tarjetasContacto p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .pie {
   margin-top: 10px;
   font-size: 1rem;
@@ -31,112 +120,5 @@
 
 .footerContacto {
   padding: 0.5rem 0;
-}
-
-.botonContacto {
-  cursor: pointer;
-  font-weight: 700;
-  font-family: Helvetica,"sans-serif";
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  padding: 10px 20px;
-  border-radius: 100px;
-  background: #cfef00;
-  border: 1px solid transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 15px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  width: 180px;
-}
-
-.botonContacto :hover {
-  background: #a6c900;
-}
-
-.navbar {
-  background-color: #333 !important;
-  color: #ffffff;
-}
-
-.tarjetasContacto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.tarjetasContacto p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.card-title {
-  font-size: 20px;
-}
-
-.botonContacto {
-  cursor: pointer;
-  font-weight: 700;
-  font-family: Helvetica,"sans-serif";
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  padding: 10px 20px;
-  border-radius: 100px;
-  background: #cfef00;
-  border: 1px solid transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 15px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  width: 180px;
-}
-
-.botonContacto :hover {
-  background: #a6c900;
-}
-
-button > svg {
-  width: 45px;
-  margin-left: 10px;
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-  transition: -webkit-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out;
-  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
-}
-
-button > svg :hover svg {
-  -webkit-transform: translateX(5px);
-          transform: translateX(5px);
-}
-
-button > svg :active {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
-}
-
-.card-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
