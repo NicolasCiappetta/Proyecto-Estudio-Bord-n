@@ -1,8 +1,14 @@
+@mixin flexPropiedades ($centrado) {
+    display: flex;
+    justify-content: $centrado;
+}
+
 @import "_variables";
 @import "_generales";
 @import "_preguntas";
 @import "_boton";
 @import "_nosotros";
 @import "_footer";
-@import "_contacto"
+@import "_contacto";
+
 

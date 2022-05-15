@@ -14,6 +14,5 @@
 }
 
 .botonNosotros{
-    display: flex;
-    justify-content: center;
+   @include flexPropiedades (center)
 }
