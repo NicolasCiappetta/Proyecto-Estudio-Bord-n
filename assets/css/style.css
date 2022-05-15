@@ -11,6 +11,15 @@
   font-size: 15px;
 }
 
+.botonNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .card-title {
   font-size: 20px;
 }
@@ -24,7 +33,7 @@
           justify-content: center;
 }
 
-.botonContacto {
+.botonContacto, .botonNosotros {
   cursor: pointer;
   font-weight: 700;
   font-family: Helvetica,"sans-serif";
@@ -46,7 +55,7 @@
   width: 180px;
 }
 
-.botonContacto:hover {
+.botonContacto:hover, .botonNosotros:hover {
   background: #a6c900;
 }
 
@@ -69,7 +78,7 @@ button > svg:active {
           transform: scale(0.95);
 }
 
-.tarjetasContacto {
+.tarjetasNosotros {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +87,7 @@ button > svg:active {
           justify-content: center;
 }
 
-.tarjetasContacto p {
+.tarjetasNosotros p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

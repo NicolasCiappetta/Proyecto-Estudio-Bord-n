@@ -1,0 +1,12 @@
+.tarjetasNosotros{
+    display: flex;
+    justify-content: center;
+    p {
+    display: flex;
+    justify-content: center; 
+    }
+}
+
+.botonNosotros{
+    @extend .botonContacto;
+}
