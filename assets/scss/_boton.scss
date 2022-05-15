@@ -31,4 +31,16 @@ button > svg {
 
 }
 
+.boton {
+    width: 150px;
+    padding: 10px 10px;
+    border: solid 1px $colorBoton;
+    color: $colorPrimario;
+    border-radius: 6px;
+}
 
+@each $colorPrimario $valor in $colores {
+    .boton-#{$colorPrimario}{
+      background-color: $valor;
+    }
+  }

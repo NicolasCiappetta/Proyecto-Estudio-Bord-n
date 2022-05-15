@@ -1,7 +1,7 @@
 .pie{
-    margin-top: 10px;
-    font-size: 1rem;
-    background-color: #333333;
+    margin-top: map-get($pie , margenSuperior );
+    font-size: map-get($pie , tamañoFuente );
+    background-color: map-get($pie , colorFondo );
     color: $colorFuente;
     height: auto;
     display: flex;

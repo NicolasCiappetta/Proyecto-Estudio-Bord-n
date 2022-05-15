@@ -6,3 +6,14 @@ $colorFuente: #ffffff;
 $colorBoton: #cfef00;
 
 $colorBoton-Hover: #a6c900;
+
+
+
+
+$pie:(
+    margenSuperior: 10px,
+    tamañoFuente: 1rem,
+    colorFondo: #333333
+)
+
+$colores: (primario:$colorPrimario,fuente:$colorFuente,colorBoton:$colorBoton,colorHover:$colorBoton-Hover)
