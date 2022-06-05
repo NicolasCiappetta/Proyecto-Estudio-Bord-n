@@ -39,7 +39,7 @@ button > svg {
     border-radius: 6px;
 }
 
-@each $colorPrimario $valor in $colores {
+@each $colorPrimario, $valor in $colores {
     .boton-#{$colorPrimario}{
       background-color: $valor;
     }

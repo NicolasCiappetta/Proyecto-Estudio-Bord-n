@@ -51,6 +51,22 @@ button > svg:active {
   border-radius: 6px;
 }
 
+.boton-primario {
+  background-color: #333;
+}
+
+.boton-fuente {
+  background-color: #ffffff;
+}
+
+.boton-colorBoton {
+  background-color: #cfef00;
+}
+
+.boton-colorHover {
+  background-color: #a6c900;
+}
+
 .navbar {
   background-color: #333 !important;
   color: #ffffff;
